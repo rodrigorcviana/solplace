@@ -1,0 +1,68 @@
+.cover-card {
+    display: flex;
+    position: absolute;  
+    left: 62px;
+    top: 737px;
+  }
+  
+  .rectangle-card {  
+    width: 585px;
+    height: 157px;
+    //fill: black;
+    background: linear-gradient(248.54deg, rgba(255, 255, 255, 0.1088) 1.47%, rgba(255, 255, 255, 0.0512) 100%);
+    backdrop-filter: blur(30px);
+    background-blend-mode: soft-light;
+    //background-blend-mode: soft-light;
+    /* Note: backdrop-filter has minimal browser support */
+    border: 4px white;
+    border-radius: 26px;
+  
+  }
+  
+  .text-cover-card {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 419px;
+    height: 78px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+  /* or 27px */
+  
+  
+  /* Cor 2 */
+  
+    color: #FEFEFE;
+  }
+  
+  .circles-wrapper {
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    left: 509px;
+    top: 71px;
+  }
+  
+  .card-circles-lg {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin: 3px;
+    background: white;
+  }
+  
+  .card-circles-md {
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background: white;
+    filter: opacity(30%);
+    margin: 3px;
+  }
+  
+  
+  

@@ -1,0 +1,166 @@
+.login-card {
+    position: absolute;
+    left: 771px;
+    top: 307px;
+    
+    width: 607px;
+    height: 506px;
+    
+    /* Cor 2 */
+    background: #FEFEFE;
+    /* Efeito 2 */  
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  }
+  
+  .login-card-title {
+    /* Login */
+    position: absolute;
+    width: 76px;
+    height: 35px;
+    left: 266px;
+    top: 15px;
+  
+    /* H1 - TÍTULO */
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.5px;
+  
+    /* cinza */
+    color: #575757;
+  }
+  
+  .login-card-input {
+    width: 448px;
+    height: 56px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .login-card-input-label {
+    /* H3 - Título menor */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    /* cinza */
+    color: #575757;
+  
+  
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  
+  .label-email {
+    position: absolute;
+    width: 51px;
+    height: 21px;
+    left: 80px;
+    top: 90px;
+  }
+  
+  .label-password {
+    position: absolute;
+    width: 51px;
+    height: 21px;
+    left: 80px;
+    top: 200px;
+  }
+  
+  .email {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+  }
+  
+  .password {
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    -webkit-text-security: disc;
+  }
+  
+  .login-card-btn {
+    position: absolute;
+    width: 448px;
+    height: 55px;
+    left: 80px;
+    top: 321px;
+    
+    background: #FF8500;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  .button-text > h3{
+    /* H3 - Título menor */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+  
+    /* Cor 2 */
+    color: #FEFEFE;
+  }
+  
+  .login-card-checkbox {
+    position: absolute;
+    left: 80px;
+    top: 387px;
+  
+    width: 1.19em;
+    height: 1.19em;
+    background-color: #F7FAFC;;
+    border: 1px solid #E8E8E8;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .login-card-checkbox:checked {
+    background-image: radial-gradient(circle, #FF8500, white 75%);
+  }
+  
+  .login-card-options-link {
+    /* H4 - PARAGRÁFO */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+  }
+  
+  .options-connected {
+    position: absolute;
+    width: 178px;
+    height: 19px;
+    left: 108px;
+    top: 390px;
+    color: #575757;
+  }
+  
+  .options-forgot {
+    position: absolute;
+    width: 152px;
+    height: 19px;
+    left: 376px;
+    top: 390px;
+    color: #00B2FF;
+  }
+  

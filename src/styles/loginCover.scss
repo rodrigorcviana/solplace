@@ -1,0 +1,43 @@
+.login-cover {
+    background: #061887;
+  }
+  
+  .login-cover-row {
+    background-image: url('../img/background-frame.svg');
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 35px;
+  }
+  
+  .cover-text > img {
+    position: absolute;
+    left: 48px;
+    top: 130px;
+  }
+  
+  .cover-text > h1 {
+    position: absolute;
+    width: 440px;
+    height: 98px;
+    left: 92px;
+    top: 95px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 1.1px;
+  
+    /* Cor 2 */ 
+    color: #FEFEFE;
+    
+  }
+  
+  .login-page-logo{
+    position: absolute;
+    top: 75px;
+    left: 910px;
+  }
+  
